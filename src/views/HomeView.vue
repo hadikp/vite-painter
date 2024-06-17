@@ -1,6 +1,6 @@
 <script setup>
-import { doc, getFirestore } from 'firebase/firestore';
-import { collection, addDoc, setDoc, getDoc } from 'firebase/firestore';
+import { doc, getFirestore, collection } from 'firebase/firestore';
+import { addDoc, setDoc, getDoc, deleteDoc } from 'firebase/firestore';
 
 const db = getFirestore()
 
@@ -26,12 +26,16 @@ const createCountry = () => {
 const readData = async () => {
   const docSnap = await getDoc(doc(db, 'countries', 'GB'))
   //const docSnap = await getDoc(doc(db, 'users', 'hPVRsOZ7SeDFS2kPykid'))
-  
     if (docSnap.exists) {
       console.log(docSnap.data());
     } else {
       console.log('No such document!');
     }
+}
+
+const dropDoc = async () => {
+  await deleteDoc(doc(db, 'users', 'i7p6g0WJYEOJMBCOEPlk'))
+  console.log('User delete')
 }
 
 </script>
@@ -43,6 +47,7 @@ const readData = async () => {
   <button @click="createUser">Create User</button>
   <button @click="createCountry">Create country</button>
   <button @click="readData">Read User</button>
+  <button @click="dropDoc">Delete User</button>
 
 </template>
 
