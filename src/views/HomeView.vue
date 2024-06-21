@@ -1,5 +1,5 @@
 <script setup>
-import { doc, getFirestore, collection } from 'firebase/firestore';
+import { doc, getFirestore, collection, query, where } from 'firebase/firestore';
 import { addDoc, setDoc, getDoc, deleteDoc } from 'firebase/firestore';
 
 const db = getFirestore()
@@ -38,6 +38,16 @@ const dropDoc = async () => {
   console.log('User delete')
 }
 
+const getAllUser = async () => {
+  //const q = query(collection(db, 'users'), where('name', '==', 'true'))
+  //const allUser = await getDoc(q)
+  const documents = []
+  collection(db, 'users').then(querySnapshot => {
+    documents = querySnapshot.docs.map(doc => doc.data())
+  })
+  console.log(documents)
+}
+
 </script>
 
 <template>
@@ -48,6 +58,7 @@ const dropDoc = async () => {
   <button @click="createCountry">Create country</button>
   <button @click="readData">Read User</button>
   <button @click="dropDoc">Delete User</button>
+  <button @click="getAllUser">All User</button>
 
 </template>
 
