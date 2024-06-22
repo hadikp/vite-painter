@@ -1,8 +1,19 @@
 <script setup>
 import { doc, getFirestore, collection, query, where } from 'firebase/firestore';
-import { addDoc, setDoc, getDoc, deleteDoc } from 'firebase/firestore';
+import { addDoc, setDoc, getDoc, deleteDoc, getDocs } from 'firebase/firestore';
+import { onMounted } from 'vue';
+import { useUserStore } from '../stores/user'
 
 const db = getFirestore()
+
+const userData = useUserStore()
+
+onMounted(async () => {
+  const querySnapsot = await getDocs(collection(db, 'users'))
+    querySnapsot.forEach((doc) => {
+      console.log(doc.id, "=", doc.data())
+     })
+  })
 
 //add data to firestore
 const createUser = () => {
