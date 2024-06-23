@@ -1,16 +1,17 @@
 <script setup>
 import { doc, getFirestore, collection, query, where } from 'firebase/firestore';
 import { addDoc, setDoc, getDoc, deleteDoc, getDocs } from 'firebase/firestore';
-import { onMounted } from 'vue';
+import { onMounted, ref } from 'vue';
 import { useUserStore } from '../stores/user'
 
 const db = getFirestore()
 
 const userData = useUserStore()
 
+const deletedUser = ref("")
+
 onMounted(async () => {
   userData.getAllUsers()
-  console.log('Működik')
   })
 
 //add data to firestore
@@ -42,14 +43,20 @@ const readData = async () => {
     }
 }
 
-const dropDoc = async () => {
-  await deleteDoc(doc(db, 'users', 'i7p6g0WJYEOJMBCOEPlk'))
-  console.log('User delete')
+//delete user
+const dropUser = async () => {
+  const users = userData.users
+  for(let i = 0; i < users.length; i ++){
+    if(users[i].content.name == deletedUser.value){
+      await deleteDoc(doc(db, 'users', users[i].id))
+      console.log('User delete', users[i].content.name)
+    }
+  }
 }
 
 const getAllUser = async () => {
-  //const q = query(collection(db, 'users'), where('name', '==', 'true'))
-  //const allUser = await getDoc(q)
+  const q = query(collection(db, 'users'), where('name', '==', 'true'))
+  const allUser = await getDoc(q)
   const documents = []
   collection(db, 'users').then(querySnapshot => {
     documents = querySnapshot.docs.map(doc => doc.data())
@@ -66,8 +73,10 @@ const getAllUser = async () => {
   <button @click="createUser">Create User</button>
   <button @click="createCountry">Create country</button>
   <button @click="readData">Read User</button>
-  <button @click="dropDoc">Delete User</button>
-  <button @click="getAllUser">All User</button>
+
+  <h3>Wich user to delete? Add user name!</h3>
+  <input type="deletedUser" placeholder="user to delete" v-model="deletedUser">
+  <button @click="dropUser">Delete User</button>
 
 </template>
 
