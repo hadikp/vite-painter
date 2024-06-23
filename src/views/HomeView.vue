@@ -9,10 +9,8 @@ const db = getFirestore()
 const userData = useUserStore()
 
 onMounted(async () => {
-  const querySnapsot = await getDocs(collection(db, 'users'))
-    querySnapsot.forEach((doc) => {
-      console.log(doc.id, "=", doc.data())
-     })
+  userData.getAllUsers()
+  console.log('Működik')
   })
 
 //add data to firestore

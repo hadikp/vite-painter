@@ -1,21 +1,23 @@
 import { defineStore } from "pinia"
 import { doc, collection, query, limit, getDocs, orderBy, getFirestore } from "firebase/firestore";
+import { ref } from "vue";
 
 export const useUserStore = defineStore('users', {
-  state: () => ({users: [], }),
+  state: () => ({users: ref([]), }),
 
 actions: {
-  getAllUsers() {
+ async getAllUsers() {
     const db = getFirestore()
     //const userQuery = query(collection(db, "users"), orderBy("name"))
     this.users = []
-   /*  const querySnapsot = getDocs(collection(db, 'users'))
+    const querySnapsot = await getDocs(collection(db, 'users'))
     querySnapsot.forEach((doc) => {
-      let us = doc.data();
-      us.id = doc.id;
-      this.users.push(us);
-      console.log(doc.id, "=", doc.data())
-      }); */
+      const user = {
+        id: doc.id,
+        content: doc.data()
+      }
+      this.users.push(user);
+      });
     }
   
   }
