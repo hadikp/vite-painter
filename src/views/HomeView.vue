@@ -18,8 +18,8 @@ onMounted(async () => {
 const createUser = () => {
   const collectionRef = collection(db, 'users')
   const data = {
-  name: 'Newer Doe',
-  email: 'newer@example.com',
+  name: 'Jane Doe',
+  email: 'jane@example.com',
   }
   const docRef = addDoc(collectionRef, data)
   console.log('Document was created with ID:', docRef.id)
@@ -54,7 +54,7 @@ const dropUser = async () => {
   }
 }
 
-const getAllUser = async () => {
+/* const getAllUser = async () => {
   const q = query(collection(db, 'users'), where('name', '==', 'true'))
   const allUser = await getDoc(q)
   const documents = []
@@ -62,7 +62,7 @@ const getAllUser = async () => {
     documents = querySnapshot.docs.map(doc => doc.data())
   })
   console.log(documents)
-}
+} */
 
 </script>
 
