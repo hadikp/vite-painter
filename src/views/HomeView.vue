@@ -47,9 +47,9 @@ const readData = async () => {
 const dropUser = async () => {
   const users = userData.users
   for(let i = 0; i < users.length; i ++){
-    if(users[i].content.name == deletedUser.value){
+    if(users[i].name == deletedUser.value){
       await deleteDoc(doc(db, 'users', users[i].id))
-      console.log('User delete', users[i].content.name)
+      console.log('User delete', users[i].name)
     }
   }
 }
