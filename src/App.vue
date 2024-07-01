@@ -4,15 +4,16 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <div class="fo-container">
-  <header>
-    <div class="nav-container">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/artWork">Art Work</RouterLink>
-      </nav>
-    </div>
-  </header>
+    <header>
+      <div class="navigation">
+        <nav class="nav-ul">
+          <RouterLink class="nav-ul-li" to="/">Home</RouterLink>
+          <RouterLink class="nav-ul-li" to="/about">About</RouterLink>
+          <RouterLink class="nav-ul-li" to="/artWork">Art Work</RouterLink>
+          <RouterLink class="nav-ul-li" to="/firebase">Firebase data</RouterLink>
+        </nav>
+      </div>
+    </header>
 
   <RouterView />
 
@@ -27,13 +28,24 @@ import { RouterLink, RouterView } from 'vue-router'
 <style scoped>
 .fo-container{
   text-align: center;
+  position: relative;
+  
+}
+.nav{
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+.nav-container{
+  display: flex;
+  position: relative;
+  width: 100%;
 }
 .footer-div{
     /* background-color: #bbb; */
     color: orange;
     font-size: 1.5rem;
     position: absolute;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     /* bottom: 0; */
     width: 100%;
     height: 2.5rem; 

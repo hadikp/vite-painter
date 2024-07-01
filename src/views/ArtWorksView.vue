@@ -30,7 +30,6 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    position: relative;
   }
   .image-container{
     width: 100%;
