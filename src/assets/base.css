@@ -18,11 +18,6 @@
   --color-background: var(--vt-c-white);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: var(--vt-c-black);
-  }
-}
 
 *,
 *::before,

@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <div class="fo-container">
+  <div class="main-container">
     <header>
       <div class="navigation">
         <nav class="nav-ul">
@@ -26,20 +26,27 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
-.fo-container{
+.main-container{
   text-align: center;
   position: relative;
   
 }
-.nav{
-  /* display: flex; */
-  /* flex-direction: column; */
-}
-.nav-container{
-  display: flex;
-  position: relative;
-  width: 100%;
-}
+.navigation {
+    font-family: Arial;
+    /* top: 20px; */
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .navigation ul li {
+    list-style-type: none;
+  }
+
+  .nav-ul-li {
+    color: #000;
+    text-decoration: none;
+    padding: 15px;
+  }
 .footer-div{
     /* background-color: #bbb; */
     color: orange;
@@ -49,7 +56,7 @@ import { RouterLink, RouterView } from 'vue-router'
     /* bottom: 0; */
     width: 100%;
     height: 2.5rem; 
-    margin-top: 1rem;
+    margin-top: 2rem;
     /* text-align: center;  */
 }
 

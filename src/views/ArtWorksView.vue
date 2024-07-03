@@ -24,16 +24,15 @@
 </template>
 <style scoped>
   .container{
-    height: 100%;
+    height: 90%;
     width: 70rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
   }
   .image-container{
+    height: 100%;
     width: 100%;
-    margin-left: 5%;
     display: grid;
     grid-template-columns: auto auto auto auto;
     /* repeat(3, 2fr) */
