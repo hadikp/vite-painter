@@ -5,11 +5,11 @@ import artist from './../assets/hadik.jpg'
 <template>
   <div class="main-content">
   <div class="artist">
-    <h1 class="">The Artist</h1>
+    <h1 class="artist-title">The Artist</h1>
     <img class="artist-photo" :src="artist">
   </div>
   <div class="artis-text">
-      <p>Hadik Péter vagyok, magyar festő és rajzoló. Főállásban informatikusként dolgozom, korábban vegyészmérnök
+    <p>Hadik Péter vagyok, magyar festő és rajzoló. Főállásban informatikusként dolgozom, korábban vegyészmérnök
          voltam. Hiszem, hogy mindenkinek meg kell találnia azt a tevékenységet,ami teljesen kikapcsolja és lelassítja.
           A rohanó mindennapokban elengedhetetlen, hogy legyen ilyen tevékenységünk. Számomra ez a festés és a
           kertészkedés. Amikor ecsetet ragadok,pár perc múlva egy teljesen más világba csöppenek. Amikor alkotok,
@@ -32,6 +32,7 @@ import artist from './../assets/hadik.jpg'
         hogy támogatod a szenvedélyemet.
       </p>
       <p>Lássuk a képeket!</p>
+      
     </div>
   </div>
 </template>
@@ -41,12 +42,18 @@ import artist from './../assets/hadik.jpg'
 
 .artist-photo {
   height: 20rem;
+  margin: 1rem;
 }
 .main-content {
   display: flex;
 } 
+.artist-title {
+  margin-top: 1rem;
+}
 .artis-text {
+  margin: 1rem;
   text-justify: auto;
+  text-align: justify;
 }
   
 </style>
