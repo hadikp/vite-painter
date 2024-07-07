@@ -14,15 +14,14 @@ import { t, availableLanguages, setLanguage, currentLanguageCode } from './local
           <RouterLink class="nav-ul-li" to="/firebase">Firebase data</RouterLink>
         </nav>
       </div>
+      <select @change="setLanguage($event.target.value)" v-model="currentLanguageCode">
+        <option v-for="lang in availableLanguages" :key="lang.code" :value="lang.code">
+          {{ lang.name }}
+        </option>
+      </select>
     </header>
-    <h1>
-    {{ t.helloWorld }}
-  </h1>
-  <select @change="setLanguage($event.target.value)" v-model="currentLanguageCode">
-    <option v-for="lang in availableLanguages" :key="lang.code" :value="lang.code">
-      {{ lang.name }}
-    </option>
-  </select>
+    
+  
   <RouterView />
 
   <footer>

@@ -1,6 +1,6 @@
 import { ref, computed } from 'vue'
 import en from './en'
-import de from './de.json'
+import de from './de'
 import hu from './hu'
 
 const availableLanguages = [
@@ -15,7 +15,7 @@ const availableLanguages = [
     file: de,
   },
   {
-    code: 'Hu',
+    code: 'HU',
     name: 'Magyar',
     file: hu,
   },
@@ -23,14 +23,24 @@ const availableLanguages = [
 ]
 
 // Current Language Code
-const currentLanguageCode = ref('EN')
+const currentLanguageCode = ref('HU')
 
 // Current Language File
 const t = computed(
   () => availableLanguages.find((lang) => lang.code === currentLanguageCode.value).file
 )
 
-// Set Language
+const jsonArrToString = () => {
+  const arr = []
+  for (let i = 0; i < t.value.about.length; i++) {
+    arr.push(t.value.about[i])
+  }
+  //const a = arr.join()
+  const b = 'Pisi'
+}
+
+
+// Set Language cookie
 const setLanguage = (code) => {
   currentLanguageCode.value = code
   localStorage.setItem('language', code)
@@ -41,4 +51,4 @@ if (localStorage.getItem('language')) {
   setLanguage(localStorage.getItem('language'))
 }
 
-export { availableLanguages, currentLanguageCode, t, setLanguage }
+export { availableLanguages, currentLanguageCode, t, jsonArrToString, setLanguage }
