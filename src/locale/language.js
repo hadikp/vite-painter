@@ -30,14 +30,13 @@ const t = computed(
   () => availableLanguages.find((lang) => lang.code === currentLanguageCode.value).file
 )
 
-const jsonArrToString = () => {
-  const arr = []
-  for (let i = 0; i < t.value.about.length; i++) {
-    arr.push(t.value.about[i])
-  }
-  //const a = arr.join()
-  const b = 'Pisi'
-}
+
+// const jsonArrToString = computed( () => t.value.about.map((val) =>  val))
+
+const jsonArrToString = computed( () => {
+  let out =  t.value.about.join("")
+  return out
+})
 
 
 // Set Language cookie

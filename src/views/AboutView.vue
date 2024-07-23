@@ -16,9 +16,9 @@ import { t, jsonArrToString, availableLanguages, setLanguage, currentLanguageCod
     <h1 class="artist-title">The Artist</h1>
     <img class="artist-photo" :src="artist">
   </div>
-  <div   class="artis-text">
+  <div v-html="jsonArrToString"  class="artis-text">
     
-       {{ jsonArrToString }}
+     
       
     </div>
   </div>
