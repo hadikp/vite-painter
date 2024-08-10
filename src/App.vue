@@ -28,7 +28,7 @@ import { t, availableLanguages, setLanguage, currentLanguageCode } from './local
 
   <footer>
     <div class="footer-div">
-      &copy; 2022-2023 Hadik-Art, all rights reserved
+      &copy; 2024 Hadik-Art, all rights reserved
     </div>
   </footer>
 </div>
@@ -36,6 +36,8 @@ import { t, availableLanguages, setLanguage, currentLanguageCode } from './local
 
 <style scoped>
 .main-container{
+  background-image: url(./assets/feher_hatter.png);
+  background-size: cover;
   text-align: center;
   position: relative;
   
