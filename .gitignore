@@ -30,3 +30,5 @@ coverage
 *.tsbuildinfo
 src/main.js
 main.js
+blog/.vitepress/dist
+blog/.vitepress/cache

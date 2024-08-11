@@ -11,6 +11,12 @@
 npm run dev
 ```
 
+### Start Blog
+
+```sh
+npm run blog:dev
+```
+
 ### Build project
 
 ```sh
