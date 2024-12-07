@@ -21,6 +21,8 @@ import { t, availableLanguages, setLanguage, currentLanguageCode } from './local
           {{ lang.name }}
         </option>
       </select>
+      
+
     </header>
     
   

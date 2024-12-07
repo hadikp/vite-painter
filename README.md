@@ -24,7 +24,7 @@ npm run build
 ```
 
 ### Deploy project
-
+Important: Build the project before deployment
 ```sh
 firebase deploy
 ```
