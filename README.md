@@ -28,3 +28,9 @@ Important: Build the project before deployment
 ```sh
 firebase deploy
 ```
+
+### Build Blog
+
+```sh
+npm run blog:build
+```
