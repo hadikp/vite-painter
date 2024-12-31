@@ -7,6 +7,7 @@ const routes = [
       {path: '/artWork', name: 'artWork', component: () => import('../views/ArtWorksView.vue')},
       {path: '/firebase', name: 'firebase', component: () => import('../views/Firebase.vue')},
       {path: '/exhibition', name: 'exhibition', component: () => import('../views/ExhibitionView.vue')},
+      {path: '/blog', name: 'blog', component: () => import('../../public/blog/index.html')},
       {path: '/contact', name: 'contact', component: () => import('../views/ContactView.vue')}
   ]
   

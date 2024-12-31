@@ -13,6 +13,7 @@ import { t, availableLanguages, setLanguage, currentLanguageCode } from './local
           <RouterLink class="nav-ul-li" to="/artWork">Art Work</RouterLink>
           <RouterLink class="nav-ul-li" to="/firebase">Firebase data</RouterLink>
           <RouterLink class="nav-ul-li" to="/exhibition">Exhibitions</RouterLink>
+          <RouterLink class="nav-ul-li" to="/blog">Blog</RouterLink>
           <RouterLink class="nav-ul-li" to="/contact">Contact</RouterLink>
         </nav>
       </div>

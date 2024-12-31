@@ -1,5 +1,8 @@
 <script setup>
-
+  function function1() {
+    console.log('function1');
+  }
+  
 </script>
 
 <template>
