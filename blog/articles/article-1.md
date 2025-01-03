@@ -1,34 +1,31 @@
+  ---
+title: Welcome to My Art Blog
+description: Discover my artistic journey, paintings, and creative process.
 ---
-title: My new Article
+
+# Welcome to My Art Blog! 🎨
+
+Thank you for visiting my page! Let me take a moment to introduce myself and share why I created this blog.
+
+For me, painting is not just a hobby—it’s a passion. In the strokes of a brush, the play of colors, and the stories brought to life on canvas, I find a joy that I hope to share with others.
+
+## What You’ll Find Here
+
+- **Paintings:** My latest artworks and the inspiration behind them.  
+- **Creative Process:** Insights into how my paintings come to life.  
+- **Reflections:** Thoughts on art, creativity, and storytelling.  
+
+### A Sneak Peek at What’s Coming
+
+The first artworks will be up soon—stay tuned! Until then, feel free to share your thoughts, connect, or simply enjoy exploring my artistic journey.
+
+Looking forward to sharing this adventure with you!
+
+Warm regards,  
+[Péter Hadik]
+
 ---
 
-# My new Article
+<!-- Add a placeholder for an image -->
+![Placeholder Image](https://via.placeholder.com/800x400/cccccc/000000?text=Hamarosan+jönnek+a+festményeim)
 
-Lorem ipsum dolor sit amet. Non voluptas deleniti non laudantium magnam ea culpa ipsam At reiciendis officia aut nulla placeat qui magnam natus.  
-
-## Sub Section
-Est commodi iusto et alias deleniti sed voluptatibus tempora est reprehenderit autem ab debitis quisquam non tenetur aliquid. Aut quod pariatur ut inventore aliquam sed rerum nihil aut voluptas consequatur et adipisci doloribus.  
-
-::: code-group
-```js [config.js]
-import { defineConfig } from 'vitepress'
-
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
-    title: "My Awesome Blog",
-    description: "Talking about the future !",
-    themeConfig: {
-        // https://vitepress.dev/reference/default-theme-config
-        nav: [
-            { text: 'Home', link: '/' },
-        ],
-        search: {
-            provider: 'local'
-        }
-    }
-})
-```
-:::
-
-## Another Sub Section
-Ea consequuntur veniam ut veniam laborum sit recusandae deserunt. Quo ipsa odit ut temporibus ipsam cum consequatur itaque et 
