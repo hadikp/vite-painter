@@ -1,22 +1,24 @@
 <template>
-  <a :href="href">
     <div class="card-grid">
-        <div v-for="(card, index) in cards" :key="index" class="card flex">
+      <div v-for="(card, index) in cards" :key="index" class="card flex">
+        <!-- <a :href="card.link"> -->
           <div class="media">
-            <img :src="image" :alt="title" class="card-image" />
+            <img :src="card.image" :alt="card.title" class="card-image" />
           </div>
           <h2 class="title">{{ card.title }}</h2>
           <p class="excerpt">{{ card.description }}</p>
+          <h3 class="name">{{ card.author }}</h3>
           <div class="author">
             <a :href="card.link" class="card-link">Tovább</a>
             <div>
-              <h3 class="name">{{ author }}</h3>
-              <p class="date">{{ date }}</p>
+              
+              <p class="date">{{ card.date }}</p>
             </div>
           </div>
+        <!-- </a> -->
       </div>
     </div>
-  </a>
+  
 </template>
 
 <!-- <template>
@@ -35,16 +37,13 @@
       </div>
   </a>
 </template> -->
-<script>
-export default {
-  name: 'ArticleCard',
-  props: {
-    cards: {
-      type: Array,
-      required: true,
-    },
-  },
-};
+<script setup>
+
+  import { defineProps } from 'vue';
+
+  const props = defineProps({
+    cards: Array,
+  })
 </script>
 <style scoped>
 
