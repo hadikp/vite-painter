@@ -1,22 +1,20 @@
 <template>
     <div class="card-grid">
-      <div v-for="(card, index) in cards" :key="index" class="card flex">
-        <!-- <a :href="card.link"> -->
-          <div class="media">
+      <a :href="card.path" v-for="(card, index) in cards" :key="index" class="card">
+        <div class="media">
             <img :src="card.image" :alt="card.title" class="card-image" />
-          </div>
+        </div>
+        <div class="card-content">
           <h2 class="title">{{ card.title }}</h2>
-          <p class="excerpt">{{ card.description }}</p>
+        <p class="excerpt">{{ card.description }}</p>
+        <div class="author" >
           <h3 class="name">{{ card.author }}</h3>
-          <div class="author">
-            <a :href="card.link" class="card-link">Tovább</a>
-            <div>
-              
-              <p class="date">{{ card.date }}</p>
-            </div>
+          <div>
+            <p class="date">{{ card.date }}</p>
           </div>
-        <!-- </a> -->
-      </div>
+        </div>
+        </div>
+        </a>
     </div>
   
 </template>
@@ -54,23 +52,32 @@
   padding: 20px;
 }
 .card {
+  border: 1px solid #e0e0e0;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  display: flex;
   margin-bottom: 1.5rem;
   overflow: hidden;
+  text-decoration: none;
   width: 100%;
 }
 .card-image {
-  width: 100%;
+  border-radius: 8px;
+  min-height: 200px;
   height: auto;
   display: block;
+  padding-right: 10px;
 }
 
 .card:hover {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0.9rem 1.2rem rgba(0, 0, 0, 0.25);
   transition: ease-in-out 0.2s all;
+  transform: translateY(-5px) ;
 }
-.card-link {
+-card-content {
+  margin: 0.2rem;
+}
+/* .card-link {
   display: inline-block;
   margin: 12px 0;
   padding: 8px 16px;
@@ -78,7 +85,7 @@
   background: #007bff;
   border-radius: 4px;
   text-decoration: none;
-}
+} */
 
 .flex {
   display: flex;
@@ -86,7 +93,6 @@
 
 .media {
   width: 45%;
-  height: 100%;
   object-fit: cover;
   object-position: center;
 }

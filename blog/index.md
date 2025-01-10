@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: My Awesome Blog
+  name: My Awesome Painting Blog
   text: Talking about my picture!
-  tagline: My great project tagline
+  tagline: Fedezd fel a színek világát
 ---
 <script setup>
   
@@ -17,7 +17,7 @@ hero:
       image: '/blog/images/temple.jpg',
       author: 'HadikP',
       date: '2024-12-11',
-      link: '/blog/articles/article-1'
+      path: '/blog/articles/article-1'
     },
     {
       title: 'Reggeli köd',
@@ -25,7 +25,7 @@ hero:
       image: '/blog/images/reggeli_kod.jpg',
       author: 'HadikP',
       date: '2025-01-05',
-      link: '/blog/articles/article-2'
+      path: '/blog/articles/article-2'
     }
   ]
 

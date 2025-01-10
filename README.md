@@ -17,7 +17,7 @@ npm run dev
 npm run blog:dev
 ```
 
-### Build project
+### Build Vue project
 
 ```sh
 npm run build
