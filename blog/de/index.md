@@ -9,17 +9,24 @@ hero:
 <script setup>
   
   import ArticleCard from "../.vitepress/theme/components/ArticleCard.vue"
-  import { useData } from 'vitepress'
 
-  const cards =
+  const cards = [
     {
         title: 'Bárnai templom',
         description: 'Willkommen auf meinem Kunst-Blog! Hier teile ich Gemälde, kreative Einblicke und Gedanken zur Kunst.',
         image: '/blog/images/temple.jpg',
         author: 'HadikP',
         date: '2024-12-11',
-        path: '/blog/de/article-1.md'
-    }
+        path: '/blog/de/article-1'
+    },
+    {
+        title: 'Bárnai templom',
+        description: 'Willkommen auf meinem Kunst-Blog! Hier teile ich Gemälde, kreative Einblicke und Gedanken zur Kunst.',
+        image: '/blog/images/temple.jpg',
+        author: 'HadikP',
+        date: '2024-12-11',
+        path: '/blog/de/article-1'
+    }]
 
 </script>
 

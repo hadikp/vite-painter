@@ -1,11 +1,11 @@
-  ---
+---
 title: Welcome to My Art Blog
 description: Discover my artistic journey, paintings, and creative process.
 ---
 
 # Welcome to My Art Blog! 🎨
 
-Thank you for visiting my page! Let me take a moment to introduce myself and share why I created this blog.
+Thank you for visiting my page! Let me take a moment to introduce myself and share why I created this website.
 
 For me, painting is not just a hobby—it’s a passion. In the strokes of a brush, the play of colors, and the stories brought to life on canvas, I find a joy that I hope to share with others.
 

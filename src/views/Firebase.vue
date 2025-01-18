@@ -34,8 +34,8 @@ const createCountry = () => {
 
 //read data from firestore
 const readData = async () => {
-  const docSnap = await getDoc(doc(db, 'countries', 'GB'))
-  //const docSnap = await getDoc(doc(db, 'users', 'hPVRsOZ7SeDFS2kPykid'))
+  //const docSnap = await getDoc(doc(db, 'countries', 'GB'))
+  const docSnap = await getDoc(doc(db, 'users', 'p91CnsLoQHc5Ad1LyEUM'))
     if (docSnap.exists) {
       console.log(docSnap.data());
     } else {

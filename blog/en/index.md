@@ -9,17 +9,24 @@ hero:
 <script setup>
   
   import ArticleCard from "../.vitepress/theme/components/ArticleCard.vue"
-  import { useData } from 'vitepress'
 
-  const cards =
+  const cards = [
     {
         title: 'Bárnai templom',
         description: 'Welcome to my art blog! Here I share my paintings, creative insights, and thoughts on art.',
         image: '/blog/images/temple.jpg',
         author: 'HadikP',
         date: '2024-12-11',
-        path: '/blog/en/article-1.md'
-    }
+        path: '/blog/en/article-1'
+    },
+    {
+        title: 'Bárnai templom',
+        description: 'Welcome to my art blog! Here I share my paintings, creative insights, and thoughts on art.',
+        image: '/blog/images/temple.jpg',
+        author: 'HadikP',
+        date: '2024-12-11',
+        path: '/blog/en/article-1'
+    } ]
     
   /* const supportedLanguages = ['en', 'hu', 'de']
   const defaultLanguage = 'en'
