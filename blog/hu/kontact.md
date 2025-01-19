@@ -5,31 +5,71 @@
 ## E-mail
 📧 **Email cím:** [hp20001025@gmail.com](mailto:hp20001025@gmail.com)
 
-## Telefon
+<!-- ## Telefon
 📞 **Telefonszám:** +36 30 123 4567
 
 ## Cím
 🏠 **Műtermem címe:**
-8000 Székesfehérvár, Tóvárosi LN. 42.
+8000 Székesfehérvár, Tóvárosi LN. 42. -->
 
 ## Közösségi média
 💬 Kövess a közösségi médiában:
-- [Facebook](https://facebook.com/teoldalad)
-<!-- - [Instagram](https://instagram.com/teoldalad)
-- [Twitter](https://twitter.com/teoldalad) -->
+- [Facebook](https://www.facebook.com/profile.php?id=100068914746692)
+- [Pinterest](https://hu.pinterest.com/HP20000/)
+- [Instagram](https://www.instagram.com/hp200011/)
+<!-- [Twitter](https://twitter.com/teoldalad) -->
 
-## Kapcsolati űrlap
-Ha közvetlenül szeretnél üzenetet küldeni nekem, töltsd ki az alábbi űrlapot:
+## Kapcsolat
 
-<form>
-  <label for="name">Név:</label><br>
-  <input type="text" id="name" name="name" placeholder="Add meg a neved"><br><br>
+Ha szeretnél üzenetet küldeni nekem, töltsd ki az alábbi űrlapot:
+
+<form action="https://example.com/send-message" method="POST" class="contact-form">
+  <label for="name">Név</label>
+  <input type="text" id="name" name="name" placeholder="Add meg a neved" required>
   
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email" placeholder="Add meg az email címed"><br><br>
-  
-  <label for="message">Üzenet:</label><br>
-  <textarea id="message" name="message" placeholder="Írd meg az üzeneted" rows="4"></textarea><br><br>
+  <label for="email">E-mail</label>
+  <input type="email" id="email" name="email" placeholder="Add meg az e-mail címed" required>
+
+  <label for="message">Üzenet</label>
+  <textarea id="message" name="message" placeholder="Írd meg az üzeneted" rows="5" required></textarea>
   
   <button type="submit">Küldés</button>
 </form>
+
+<style>
+  .contact-form {
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contact-form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+</style>
+

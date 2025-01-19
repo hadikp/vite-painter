@@ -7,7 +7,7 @@ export default defineConfig({
   description: "You can read about my painting on my blog",
   base: '/blog/',
 
-  /* themeConfig: {
+ /*  themeConfig: {
     nav: [
       { text: 'Home', link: '/' }, // https://painting-3c7a8.web.app/
       { text: 'Blog', link: '/blog/' }, //https://painting-3c7a8.web.app/
@@ -40,10 +40,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
       // { icon: 'twitter', link: 'https://github.com/vuejs/vitepress' },
     ],
-    footer: {
-      message: 'Released under the MIT License',
-      copyright: 'Copyright © 2025-present'
-    },
+    
   
   locales: {
     root: {
@@ -52,13 +49,20 @@ export default defineConfig({
         lang: 'en',
         linkText: 'English',
         link: '/en/',
+        
         themeConfig: {
+          
           nav: [
             { text: 'Home', link: '/' }, // https://painting-3c7a8.web.app/
             { text: 'Blog', link: '/en/' }, //https://painting-3c7a8.web.app/
-            { text: 'Contact', link: '/en/contact' },
+            { text: 'Contact', link: '/en/kontact' },
           ],
-          }
+          footer: {
+            // message: 'The content of this website is protected by copyright but may be used for personal or educational purposes with proper attribution.',
+            copyright: 'Copyright © Hadik-Art 2025-present'
+          },
+          },
+          
         },
     hu: {
         title: 'Festő blogom',
@@ -72,6 +76,9 @@ export default defineConfig({
             { text: 'Blog', link: '/hu/' }, //https://painting-3c7a8.web.app/
             { text: 'Kapcsolat', link: '/hu/kontact' },
           ],
+          footer: {
+            copyright: 'Copyright © Hadik-Art 2025-present'
+          },
         },
       },
     de: {
@@ -86,8 +93,12 @@ export default defineConfig({
             { text: 'Blog', link: '/de/' }, //https://painting-3c7a8.web.app/
             { text: 'Kontakt', link: '/de/kontact' },
           ],
+          footer: {
+            copyright: 'Copyright © Hadik-Art 2025-present'
+          },
         },
       }
-    }
+    },
+    
   }
 )

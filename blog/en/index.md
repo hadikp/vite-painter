@@ -12,20 +12,20 @@ hero:
 
   const cards = [
     {
-        title: 'Bárnai templom',
+        title: 'First post',
         description: 'Welcome to my art blog! Here I share my paintings, creative insights, and thoughts on art.',
-        image: '/blog/images/temple.jpg',
+        image: '/blog/images/ecset.jpg',
         author: 'HadikP',
-        date: '2024-12-11',
+        date: '2025-01-13',
         path: '/blog/en/article-1'
     },
     {
         title: 'Bárnai templom',
         description: 'Welcome to my art blog! Here I share my paintings, creative insights, and thoughts on art.',
-        image: '/blog/images/temple.jpg',
+        image: '/blog/images/reggeli_kod.jpg',
         author: 'HadikP',
-        date: '2024-12-11',
-        path: '/blog/en/article-1'
+        date: '2025-01-20',
+        path: '/blog/en/article-2'
     } ]
     
   /* const supportedLanguages = ['en', 'hu', 'de']

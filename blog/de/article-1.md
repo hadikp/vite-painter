@@ -17,7 +17,7 @@ Für mich ist Malerei nicht nur ein Hobby, sondern eine Leidenschaft. In den Pin
 
 ### Ein kleiner Vorgeschmack auf das, was kommt
 
-Die ersten Bilder werden bald veröffentlicht – bleib dran! Bis dahin freue ich mich über dein Feedback, lass uns in Kontakt treten oder genieße einfach, wie ich meine kreative Reise mit dir teile.
+Die ersten Bilder werden bald veröffentlicht - bleiben Sie dran! Bis dahin freue ich mich auf Ihr Feedback, kontaktieren Sie mich oder genießen Sie einfach, wie ich diese kreative Reise mit Ihnen teile.
 
 Ich freue mich darauf, dieses Abenteuer mit dir zu teilen!
 

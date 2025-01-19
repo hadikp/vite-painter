@@ -12,20 +12,20 @@ hero:
 
   const cards = [
     {
-        title: 'Bárnai templom',
+        title: 'Erster Eintrag',
         description: 'Willkommen auf meinem Kunst-Blog! Hier teile ich Gemälde, kreative Einblicke und Gedanken zur Kunst.',
-        image: '/blog/images/temple.jpg',
+        image: '/blog/images/ecset.jpg',
         author: 'HadikP',
-        date: '2024-12-11',
+        date: '2025-01-13',
         path: '/blog/de/article-1'
     },
     {
         title: 'Bárnai templom',
         description: 'Willkommen auf meinem Kunst-Blog! Hier teile ich Gemälde, kreative Einblicke und Gedanken zur Kunst.',
-        image: '/blog/images/temple.jpg',
+        image: '/blog/images/reggeli_kod.jpg',
         author: 'HadikP',
-        date: '2024-12-11',
-        path: '/blog/de/article-1'
+        date: '2025-01-20',
+        path: '/blog/de/article-2'
     }]
 
 </script>

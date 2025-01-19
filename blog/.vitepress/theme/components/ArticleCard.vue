@@ -7,13 +7,9 @@
         </div>
         <div class="card-content">
           <h2 class="title">{{ card.title }}</h2>
-        <p class="excerpt">{{ card.description }}</p>
-        <div class="author" >
-          <h3 class="name">{{ card.author }}</h3>
-          <div>
-            <p class="date">{{ card.date }}</p>
-          </div>
-        </div>
+          <section class="card-description">{{ card.description }}</section>
+          <h3 class="author-name">{{ card.author }}</h3>
+          <div>{{ card.date }}</div>
         </div>
         </a>
     </div>
@@ -40,14 +36,15 @@
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   display: flex;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   overflow: hidden;
   text-decoration: none;
   width: 100%;
 }
 .card-image {
   border-radius: 8px;
-  min-height: 200px;
+  min-height: 13rem;
+  min-width: 10rem;
   height: auto;
   display: block;
   padding-right: 10px;
@@ -57,8 +54,11 @@
   transition: ease-in-out 0.2s all;
   transform: translateY(-5px) ;
 }
--card-content {
-  margin: 0.2rem;
+.card-content {
+  margin: 0;
+}
+.card-description {
+  margin: 0.5rem 0;
 }
 .media {
   width: 45%;
@@ -69,9 +69,9 @@
   border-top: none;
   margin: 0 0;
 }
-.name {
+.author-name {
   margin: 0 0;
-  font-size: 0.7rem;
+  font-size: 1rem;
   color: #999;
 }
 </style>

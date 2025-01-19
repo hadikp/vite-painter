@@ -5,7 +5,7 @@ description: Fedezd fel a festészeti utamat, alkotásaimat és a kreatív folya
 
 # Üdvözöllek a művész blogomon! 🎨
 
-Köszönöm, hogy ellátogattál az oldalamra! Engedd meg, hogy röviden bemutatkozzak és meséljek arról, miért hoztam létre ezt a honlapot.
+Köszönöm, hogy ellátogattál az oldalamra! Engedd meg, hogy röviden bemutatkozzak és meséljek arról, miért hoztam létre ezt az oldalt.
 
 A festészet számomra nemcsak hobbi, hanem szenvedély. Az ecsetvonásokban, a színek játékában és a vászonra álmodott történetekben találom meg azt az örömöt, amit szeretnék másokkal is megosztani.
 
@@ -17,7 +17,7 @@ A festészet számomra nemcsak hobbi, hanem szenvedély. Az ecsetvonásokban, a 
 
 ### Egy kis ízelítő a jövőből
 
-Az első festmények hamarosan itt lesznek a blogon – maradj velem! Addig is várom a véleményedet, lépj velem kapcsolatba, vagy egyszerűen csak élvezd, ahogy megosztom veled az alkotói utam.
+Az első festmények hamarosan láthatóak lesznek itt a blogon – maradj velem! Addig is várom a véleményedet, lépj velem kapcsolatba, vagy egyszerűen csak élvezd, ahogy megosztom veled az alkotói utam.
 
 Izgatottan várom, hogy megoszthassam veled ezt a nagyszerű kalandot!
 
