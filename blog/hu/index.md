@@ -20,8 +20,8 @@ hero:
         path: '/blog/hu/article-1'
     },
     {
-        title: 'Bárnai templom',
-        description: 'Üdvözöllek a festő blogomon! Itt majd megosztom veled festményeimet, kreatív gondolataimat és az elkészült alkotásaimat.',
+        title: 'Reggeli köd',
+        description: 'Reggeli köd című festményem története, inspirációim, a festés folyamata, és a felhasznált anyagok.',
         image: '/blog/images/reggeli_kod.jpg',
         author: 'HadikP',
         date: '2025-01-20',

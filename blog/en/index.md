@@ -20,8 +20,8 @@ hero:
         path: '/blog/en/article-1'
     },
     {
-        title: 'Bárnai templom',
-        description: 'Welcome to my art blog! Here I share my paintings, creative insights, and thoughts on art.',
+        title: 'Morning Mist',
+        description: 'The story of my painting titled Morning Mist, my inspirations, the painting process, and the materials used',
         image: '/blog/images/reggeli_kod.jpg',
         author: 'HadikP',
         date: '2025-01-20',

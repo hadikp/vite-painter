@@ -20,8 +20,8 @@ hero:
         path: '/blog/de/article-1'
     },
     {
-        title: 'Bárnai templom',
-        description: 'Willkommen auf meinem Kunst-Blog! Hier teile ich Gemälde, kreative Einblicke und Gedanken zur Kunst.',
+        title: 'Morgendlicher Nebel',
+        description: 'Die Geschichte meines Gemäldes mit dem Titel Morgendlicher Nebel, meine Inspirationen, der Malprozess und die verwendeten Materialien',
         image: '/blog/images/reggeli_kod.jpg',
         author: 'HadikP',
         date: '2025-01-20',
