@@ -30,4 +30,4 @@ For me, "Morning Mist" is more than just a painting — it’s a reminder of the
 
 If you're interested in the story behind my painting and would like to learn more about it, feel free to send me a message through the [Contact](./kontact.md) page! I'll be happy to answer any questions. 😊
 
-<img title="Morning Mist" alt="Morning Mist" src="../images/reggeli_kod.jpg">
+<!-- <img title="Morning Mist" alt="Morning Mist" src="../images/reggeli_kod.jpg"> -->

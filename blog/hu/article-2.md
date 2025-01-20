@@ -28,4 +28,4 @@ A mester vezetésével először ceruzával vázlatot készítettünk, ahol a fi
 
 Ha érdekel a festményem története, és szeretnél többet megtudni róla, írj nekem üzenetet a [Kapcsolat](./kontact.md) oldalon keresztül! Szívesen válaszolok minden kérdésre.😊
 
-<img title="reggeli köd" alt="reggeli köd" src="../images/reggeli_kod.jpg">
+<!-- <img title="reggeli köd" alt="reggeli köd" src="../images/reggeli_kod.jpg"> -->
