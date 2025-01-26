@@ -17,7 +17,7 @@ hero:
         image: '/blog/images/ecset.jpg',
         author: 'HadikP',
         date: '2025-01-13',
-        path: '/blog/en/article-1'
+        path: '/blog/en/startblog.md'
     },
     {
         title: 'Morning Mist',
@@ -25,7 +25,7 @@ hero:
         image: '/blog/images/reggeli_kod.jpg',
         author: 'HadikP',
         date: '2025-01-20',
-        path: '/blog/en/article-2'
+        path: '/blog/en/mist'
     } ]
     
   /* const supportedLanguages = ['en', 'hu', 'de']

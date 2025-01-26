@@ -22,7 +22,7 @@ Az első festmények hamarosan láthatóak lesznek itt a blogon – maradj velem
 Izgatottan várom, hogy megoszthassam veled ezt a nagyszerű kalandot!
 
 Üdvözlettel:  
-[Hadik Péter]
+Hadik Péter
 
 ---
 

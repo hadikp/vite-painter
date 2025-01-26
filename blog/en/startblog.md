@@ -22,7 +22,7 @@ The first artworks will be up soon — stay tuned! Until then, feel free to shar
 Looking forward to sharing this adventure with you!
 
 Warm regards,  
-[Péter Hadik]
+Péter Hadik
 
 ---
 

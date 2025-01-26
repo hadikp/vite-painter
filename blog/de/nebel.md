@@ -30,6 +30,4 @@ Für mich ist „Morgendlicher Nebel“ mehr als nur ein Gemälde – es ist ein
 
 Wenn Sie an der Geschichte hinter meinem Gemälde interessiert sind und mehr darüber erfahren möchten, schreiben Sie mir gerne eine Nachricht über die [Kontakt-Seite](./kontact.md)! Ich beantworte gerne alle Ihre Fragen. 😊
  
-<!-- <img title="Morgendlicher Nebel" alt="Morgendlicher Nebel" src="/images/reggeli_kod.jpg"> -->
-
 ![Morgendlicher Nebel](/images/reggeli_kod.jpg)

@@ -34,7 +34,7 @@ Ha szeretnél üzenetet küldeni nekem, töltsd ki az alábbi űrlapot:
   <textarea class="inputs" id="message" name="message" placeholder="Írd meg az üzeneted" rows="5" required></textarea>
   <div class="ch-box">
     <input style="vertical-align: top;" type="checkbox" id="consent" name="consent" value="yes" required>
-    <label for="consent">Értem és elfogadom az <a href="../hu/adatvedelem" target="_blank">adatvédelmi tájékoztatót.</a></label><br>
+    <label for="consent">Értem és elfogadom az <a href="../hu/adatvedelem">adatvédelmi tájékoztatót.</a></label><br>
   </div>
   <button type="submit">Küldés</button>
 </form>

@@ -17,7 +17,7 @@ hero:
         image: '/blog/images/ecset.jpg',
         author: 'HadikP',
         date: '2025-01-13',
-        path: '/blog/de/article-1'
+        path: '/blog/de/startblog'
     },
     {
         title: 'Morgendlicher Nebel',
@@ -25,7 +25,7 @@ hero:
         image: '/blog/images/reggeli_kod.jpg',
         author: 'HadikP',
         date: '2025-01-20',
-        path: '/blog/de/article-2'
+        path: '/blog/de/nebel'
     }]
 
 </script>

@@ -17,7 +17,7 @@ hero:
         image: '/blog/images/ecset.jpg',
         author: 'HadikP',
         date: '2025-01-13',
-        path: '/blog/hu/article-1'
+        path: '/blog/hu/startblog.md'
     },
     {
         title: 'Reggeli köd',
@@ -25,7 +25,7 @@ hero:
         image: '/blog/images/reggeli_kod.jpg',
         author: 'HadikP',
         date: '2025-01-20',
-        path: '/blog/hu/article-2'
+        path: '/blog/hu/reggelikod'
     }
   ]
   

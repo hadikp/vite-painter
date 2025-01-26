@@ -33,7 +33,7 @@ Would you like to send me a message? Fill out the form below, and I will get bac
   <textarea class="inputs" id="message" name="message" placeholder="Write your message here" rows="5"></textarea>
   <div class="ch-box">
     <input type="checkbox" id="consent" name="consent" value="yes" required>
-    <label for="consent">I understand and agree to the <a href="../en/adatvedelem" target="_blank">privacy policy.</a></label><br>
+    <label for="consent">I understand and agree to the <a href="/blog/en/adatvedelem">privacy policy.</a></label><br>
   </div>
   
   <button type="submit">Send</button>

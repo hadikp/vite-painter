@@ -22,7 +22,7 @@ Die ersten Bilder werden bald veröffentlicht - bleiben Sie dran! Bis dahin freu
 Ich freue mich darauf, dieses Abenteuer mit dir zu teilen!
 
 Herzliche Grüße,  
-[Péter Hadik]
+Péter Hadik
 
 ---
 
