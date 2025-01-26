@@ -3,6 +3,7 @@
   <!-- <meta http-equiv="refresh" content="0; url=http://localhost:5173/blog/en/" />  Átirányítás meta-taggel-->
 
   <script setup>
+    import { onMounted } from 'vue'
     // Böngésző nyelvének lekérése
     const userLang = navigator.language || navigator.userLanguage;
 
@@ -20,6 +21,8 @@
     const redirectTo = Object.keys(langRoutes).find(lang => userLang.startsWith(lang)) || defaultLanguage;
 
     // Átirányítás a megfelelő nyelvi oldalra
-    window.location.href = langRoutes[redirectTo];
-
+    onMounted(() => {
+      window.location.href = langRoutes[redirectTo];
+    })
+    
 </script>

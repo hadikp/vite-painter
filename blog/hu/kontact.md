@@ -15,26 +15,31 @@
 ## Közösségi média
 💬 Kövess a közösségi médiában:
 - [Facebook](https://www.facebook.com/profile.php?id=100068914746692)
-- [Pinterest](https://hu.pinterest.com/HP20000/)
+- [Pinterest](https://hu.pinterest.com/VibrantVisionsArt1/)
 - [Instagram](https://www.instagram.com/hp200011/)
-<!-- [Twitter](https://twitter.com/teoldalad) -->
+- [Twitter](https://twitter.com/hadikp)
 
 ## Kapcsolat
 
 Ha szeretnél üzenetet küldeni nekem, töltsd ki az alábbi űrlapot:
 
-<form action="https://example.com/send-message" method="POST" class="contact-form">
+<form action="https://formspree.io/f/xnnjanlr" method="POST" class="contact-form">
   <label for="name">Név</label>
-  <input type="text" id="name" name="name" placeholder="Add meg a neved" required>
+  <input class="inputs" type="text" id="name" name="name" placeholder="Add meg a neved" required>
   
   <label for="email">E-mail</label>
-  <input type="email" id="email" name="email" placeholder="Add meg az e-mail címed" required>
+  <input class="inputs" type="email" id="email" name="email" placeholder="Add meg az e-mail címed" required>
 
   <label for="message">Üzenet</label>
-  <textarea id="message" name="message" placeholder="Írd meg az üzeneted" rows="5" required></textarea>
-  
+  <textarea class="inputs" id="message" name="message" placeholder="Írd meg az üzeneted" rows="5" required></textarea>
+  <div class="ch-box">
+    <input style="vertical-align: top;" type="checkbox" id="consent" name="consent" value="yes" required>
+    <label for="consent">Értem és elfogadom az <a href="../hu/adatvedelem" target="_blank">adatvédelmi tájékoztatót.</a></label><br>
+  </div>
   <button type="submit">Küldés</button>
 </form>
+
+
 
 <style>
   .contact-form {
@@ -48,8 +53,7 @@ Ha szeretnél üzenetet küldeni nekem, töltsd ki az alábbi űrlapot:
     font-weight: bold;
   }
   
-  .contact-form input,
-  .contact-form textarea {
+  .inputs {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -71,5 +75,21 @@ Ha szeretnél üzenetet küldeni nekem, töltsd ki az alábbi űrlapot:
   .contact-form button:hover {
     background-color: #0056b3;
   }
+  .ch-box{
+    display: flex;
+    align-items: center;
+    
+    gap: 0.5rem; /* Távolság a jelölőnégyzet és a szöveg között */
+    font-size: 1rem; /* Alapértelmezett betűméret */
+  }
+  .ch-box a{
+    color: #007bff; /* Link színe */
+    text-decoration: none;
+  }
+  .ch-box a:hover{
+    text-decoration: underline;
+  }
+  
+
 </style>
 

@@ -53,8 +53,8 @@ export default defineConfig({
         themeConfig: {
           
           nav: [
-            { text: 'Home', link: 'https://painting-3c7a8.web.app/' }, // https://painting-3c7a8.web.app/
-            { text: 'Blog', link: '../en/index/' }, //https://painting-3c7a8.web.app/
+            { text: 'Home', link: 'https://painting-3c7a8.web.app/artWork' }, // https://painting-3c7a8.web.app/
+            { text: 'Blog', link: '../en/index/' }, 
             { text: 'Contact', link: '../en/kontact/' },
           ],
           footer: {
@@ -72,8 +72,8 @@ export default defineConfig({
         link: '/hu/',
         themeConfig: {
           nav: [
-            { text: 'Kezdőoldal', link: 'https://painting-3c7a8.web.app/' }, // https://painting-3c7a8.web.app/
-            { text: 'Blog', link: '../hu/index/' }, //https://painting-3c7a8.web.app/
+            { text: 'Kezdőoldal', link: 'https://painting-3c7a8.web.app/artWork' }, // https://painting-3c7a8.web.app/
+            { text: 'Blog', link: '../hu/index/' }, 
             { text: 'Kapcsolat', link: '../hu/kontact/' },
           ],
           footer: {
@@ -82,15 +82,15 @@ export default defineConfig({
         },
       },
     de: {
-        title: 'Mein Maler-blog',
+        title: 'Mein Maler-Blog',
         label: 'Deutsch',
         lang: 'de',
         linkText: 'Deutsch',
         link: '/de/',
         themeConfig: {
           nav: [
-            { text: 'Startseite', link: 'https://painting-3c7a8.web.app/' }, // https://painting-3c7a8.web.app/
-            { text: 'Blog', link: '../de/index/' }, //https://painting-3c7a8.web.app/
+            { text: 'Startseite', link: 'https://painting-3c7a8.web.app/artWork' }, // https://painting-3c7a8.web.app/
+            { text: 'Blog', link: '../de/index/' },
             { text: 'Kontakt', link: '../de/kontact/' },
           ],
           footer: {

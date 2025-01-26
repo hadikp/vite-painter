@@ -15,26 +15,29 @@ I'm happy to answer your questions, listen to your feedback or take any enquirie
 ## Social Media
 💬 Follow me on social media:
 - [Facebook](https://www.facebook.com/profile.php?id=100068914746692)
-- [Pinterest](https://hu.pinterest.com/HP20000/)
+- [Pinterest](https://hu.pinterest.com/VibrantVisionsArt1/)
 - [Instagram](https://www.instagram.com/hp200011/)
-<!--- [Twitter](https://twitter.com/yourpage) -->
+- [Twitter](https://twitter.com/hadikp)
 
 ## Contact Form
 Would you like to send me a message? Fill out the form below, and I will get back to you soon!
 
-<form action="https://example.com/send-message" method="POST" class="contact-form">
+<form action="https://formspree.io/f/xnnjanlr" method="POST" class="contact-form">
   <label for="name">Name</label>
-  <input type="text" id="name" name="name" placeholder="Enter your name" required>
+  <input class="inputs" type="text" id="name" name="name" placeholder="Enter your name" required>
   
   <label for="email">Email</label>
-  <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+  <input class="inputs" type="email" id="email" name="email" placeholder="Enter your email address" required>
 
   <label for="message">Message</label>
-  <textarea id="message" name="message" placeholder="Write your message here" rows="5"></textarea>
+  <textarea class="inputs" id="message" name="message" placeholder="Write your message here" rows="5"></textarea>
+  <div class="ch-box">
+    <input type="checkbox" id="consent" name="consent" value="yes" required>
+    <label for="consent">I understand and agree to the <a href="../en/adatvedelem" target="_blank">privacy policy.</a></label><br>
+  </div>
   
   <button type="submit">Send</button>
 </form>
-
 
 <style>
   .contact-form {
@@ -48,8 +51,7 @@ Would you like to send me a message? Fill out the form below, and I will get bac
     font-weight: bold;
   }
   
-  .contact-form input,
-  .contact-form textarea {
+  .inputs {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -70,6 +72,20 @@ Would you like to send me a message? Fill out the form below, and I will get bac
   
   .contact-form button:hover {
     background-color: #0056b3;
+  }
+  .ch-box{
+    display: flex;
+    align-items: center;
+    
+    gap: 0.5rem; /* Távolság a jelölőnégyzet és a szöveg között */
+    font-size: 1rem; /* Alapértelmezett betűméret */
+  }
+  .ch-box a{
+    color: #007bff; /* Link színe */
+    text-decoration: none;
+  }
+  .ch-box a:hover{
+    text-decoration: underline;
   }
 </style>
 

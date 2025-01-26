@@ -15,23 +15,27 @@ Beispielstraße 123, 12345 Stadt. -->
 ## Soziale Medien
 💬 Folgen Sie uns in den sozialen Medien:
 - [Facebook](https://www.facebook.com/profile.php?id=100068914746692)
-- [Pinterest](https://hu.pinterest.com/HP20000/)
+- [Pinterest](https://hu.pinterest.com/VibrantVisionsArt1/)
 - [Instagram](https://www.instagram.com/hp200011/)
-<!-- [Twitter](https://twitter.com/deineseite) -->
+- [Twitter](https://twitter.com/hadikp)
 
 ## Kontaktformular
 
 Möchtest du mir eine Nachricht senden? Fülle das folgende Formular aus, und ich melde mich bald bei dir!
 
-<form action="https://example.com/send-message" method="POST" class="contact-form">
+<form action="https://formspree.io/f/xnnjanlr" method="POST" class="contact-form">
   <label for="name">Name</label>
-  <input type="text" id="name" name="name" placeholder="Geben Sie Ihren Namen ein" required>
+  <input class="inputs" type="text" id="name" name="name" placeholder="Geben Sie Ihren Namen ein" required>
   
   <label for="email">E-Mail</label>
-  <input type="email" id="email" name="email" placeholder="Geben Sie Ihre E-Mail-Adresse ein" required>
+  <input class="inputs" type="email" id="email" name="email" placeholder="Geben Sie Ihre E-Mail-Adresse ein" required>
 
   <label for="message">Nachricht</label>
-  <textarea id="message" name="message" placeholder="Schreiben Sie Ihre Nachricht hier" rows="5"></textarea>
+  <textarea class="inputs" id="message" name="message" placeholder="Schreiben Sie Ihre Nachricht hier" rows="5"></textarea>
+  <div class="ch-box">
+    <input style="vertical-align: top;" type="checkbox" id="consent" name="consent" value="yes" required>
+    <label style="vertical-align: middle;" for="consent">Ich habe die <a href="../de/adatvedelem" target="_blank">Datenschutzerklärung</a> verstanden und akzeptiere sie.</label><br>
+  </div>
   
   <button type="submit">Senden</button>
 </form>
@@ -49,8 +53,7 @@ Möchtest du mir eine Nachricht senden? Fülle das folgende Formular aus, und ic
     font-weight: bold;
   }
   
-  .contact-form input,
-  .contact-form textarea {
+  .inputs {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -72,4 +75,19 @@ Möchtest du mir eine Nachricht senden? Fülle das folgende Formular aus, und ic
   .contact-form button:hover {
     background-color: #0056b3;
   }
+  .ch-box{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Távolság a jelölőnégyzet és a szöveg között */
+    font-size: 1rem; /* Alapértelmezett betűméret */
+    vertical-align: top;
+  }
+  .ch-box a{
+    color: #007bff; /* Link színe */
+    text-decoration: none;
+  }
+  .ch-box a:hover{
+    text-decoration: underline;
+  }
+
 </style>
