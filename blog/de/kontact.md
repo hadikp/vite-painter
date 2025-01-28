@@ -34,7 +34,7 @@ Möchtest du mir eine Nachricht senden? Fülle das folgende Formular aus, und ic
   <textarea class="inputs" id="message" name="message" placeholder="Schreiben Sie Ihre Nachricht hier" rows="5"></textarea>
   <div class="ch-box">
     <input style="vertical-align: top;" type="checkbox" id="consent" name="consent" value="yes" required>
-    <label style="vertical-align: middle;" for="consent">Ich habe die <a href="https://painting-3c7a8.web.app/de/adatvedelem">Datenschutzerklärung</a> verstanden und akzeptiere sie.</label><br>
+    <label style="vertical-align: middle;" for="consent">Ich habe die <a href="/blog/en/adatvedelem">Datenschutzerklärung</a> verstanden und akzeptiere sie.</label><br>
   </div>
   
   <button type="submit">Senden</button>

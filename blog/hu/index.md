@@ -26,6 +26,14 @@ hero:
         author: 'HadikP',
         date: '2025-01-20',
         path: '/blog/hu/reggelikod'
+    },
+    {
+        title: 'Nyári kiállításom',
+        description: 'Három alkotásomat mutattam be: egy párizsi olimpia ihlette festményt, a perui Laguna 69-et ábrázoló pasztellt és egy lótuszokról készült akrillt',
+        image: '/blog/images/kiallitas.jpg',
+        author: 'HadikP',
+        date: '2025-01-28',
+        path: '/blog/hu/kiallitas'
     }
   ]
   

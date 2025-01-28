@@ -17,7 +17,7 @@ hero:
         image: '/blog/images/ecset.jpg',
         author: 'HadikP',
         date: '2025-01-13',
-        path: '/blog/en/startblog.md'
+        path: '/blog/en/startblog'
     },
     {
         title: 'Morning Mist',
@@ -26,19 +26,17 @@ hero:
         author: 'HadikP',
         date: '2025-01-20',
         path: '/blog/en/mist'
-    } ]
+    }, 
+    {
+        title: 'My Summer Exhibition',
+        description: "I showcased three of my artworks: a painting inspired by the Paris Olympics, a pastel depicting Peru's Laguna 69, and an acrylic of lotus flowers.",
+        image: '/blog/images/kiallitas.jpg',
+        author: 'HadikP',
+        date: '2025-01-28',
+        path: '/blog/en/exhibition'
+    } 
+  ]
     
-  /* const supportedLanguages = ['en', 'hu', 'de']
-  const defaultLanguage = 'en'
-
-  //böngésző nyelvének lekérése
-  const browserLanguage = navigator.language.split('-')[0]; // Csak a nyelvkód kell (pl. "en")
-  const selectedLanguage = supportedLanguages.includes(browserLanguage) ? browserLanguage  : defaultLanguage
-  console.log(browserLanguage)
-  // Átirányítás, ha nem a megfelelő nyelvi útvonalon vagy
-if (!window.location.pathname.startsWith(`/${selectedLanguage}/`)) {
-  window.location.href = `/${selectedLanguage}/` + window.location.pathname.slice(1);
-} */
 
 </script>
 

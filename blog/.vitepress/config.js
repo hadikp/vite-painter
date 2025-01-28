@@ -6,6 +6,33 @@ export default defineConfig({
   
   description: "You can read about my painting on my blog",
   base: '/blog/',
+  /* vite: {
+    plugins: [
+      {
+        name: 'inject-meta-tags',
+        transformHtml: (html, { pageData }) => {
+          // Ellenőrizzük, hogy van-e frontmatter
+          const frontmatter = pageData?.frontmatter;
+          console.log('PageData:', pageData); // Ellenőrizd a teljes `pageData` tartalmát
+          console.log('Frontmatter:', frontmatter); // Ellenőrizd, hogy van-e `frontmatter`
+          if (!frontmatter) {
+            return html; // Ha nincs frontmatter, térjünk vissza az eredeti HTML-lel
+          }
+          // Ellenőrizzük, hogy vannak-e kulcsszavak
+          const { keywords } = frontmatter;
+          console.log('Keywords:', keywords); 
+          let metaTags = '';
+        
+          if (keywords) {
+            metaTags += `<meta name="keywords" content="${keywords.join(', ')}" />\n`;
+          }
+          // Helyettesítsük be a meta tag-eket, ha van mit
+          return html.replace('</head>', `${metaTags}</head>`);
+        }
+      }
+    ]
+  }, */
+  
 
  /*  themeConfig: {
     nav: [

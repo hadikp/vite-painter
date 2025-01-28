@@ -26,7 +26,16 @@ hero:
         author: 'HadikP',
         date: '2025-01-20',
         path: '/blog/de/nebel'
-    }]
+    },
+    {
+        title: 'Meine Sommerausstellung',
+        description: 'Ich stellte drei meiner Werke aus: ein Gemälde inspiriert von den Olympischen Spielen in Paris, ein Pastell der peruanischen Laguna 69 und ein Acrylbild von Lotusblumen.',
+        image: '/blog/images/reggeli_kod.jpg',
+        author: 'HadikP',
+        date: '2025-01-20',
+        path: '/blog/de/ausstellung'
+    }
+  ]
 
 </script>
 
