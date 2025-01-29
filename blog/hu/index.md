@@ -17,7 +17,7 @@ hero:
         image: '/blog/images/ecset.jpg',
         author: 'HadikP',
         date: '2025-01-13',
-        path: '/blog/hu/startblog.md'
+        path: '/blog/hu/startblog'
     },
     {
         title: 'Reggeli köd',
@@ -25,7 +25,7 @@ hero:
         image: '/blog/images/reggeli_kod.jpg',
         author: 'HadikP',
         date: '2025-01-20',
-        path: '/blog/hu/reggelikod'
+        path: '/blog/hu/mist'
     },
     {
         title: 'Nyári kiállításom',
@@ -33,7 +33,7 @@ hero:
         image: '/blog/images/kiallitas.jpg',
         author: 'HadikP',
         date: '2025-01-28',
-        path: '/blog/hu/kiallitas'
+        path: '/blog/hu/exhibition'
     }
   ]
   

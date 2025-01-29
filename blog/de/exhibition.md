@@ -11,16 +11,22 @@ Eines der besonderen Ereignisse dieses Sommers war für mich meine Ausstellung. 
 ## Meine ausgestellten Werke
 
 ### 1. **Gemälde inspiriert von den Olympischen Spielen in Paris**
-Das erste Werk wurde von den Olympischen Spielen 2024 in Paris inspiriert. Das Gemälde symbolisiert den olympischen Geist – Einheit und Durchhaltevermögen – ausgedrückt durch lebendige Blautöne und dynamische Linien. Energie, Bewegung und der Geist des Sports spiegeln sich in jedem Detail der Komposition wider. Das Bild zeigt eine laufende Figur, die auf den Eiffelturm zuläuft.  
-![Pariser Olympiade](/images/olimpia.jpg)
+<div class="image-text-container">
+    <img class="olimpia-img" src="/images/olimpia.jpg" alt="Pariser Olympiade" />
+    <p class="olimpia-text">Das erste Werk wurde von den Olympischen Spielen 2024 in Paris inspiriert. Das Gemälde symbolisiert den olympischen Geist – Einheit und Durchhaltevermögen – ausgedrückt durch lebendige Blautöne und dynamische Linien. Energie, Bewegung und der Geist des Sports spiegeln sich in jedem Detail der Komposition wider. Das Bild zeigt eine laufende Figur, die auf den Eiffelturm zuläuft.  
+    </p>
+</div>
 
 ### 2. **Farbenfrohe Pastellzeichnung: "Laguna 69"**
 Das zweite Werk ist eine lebendige, farbenfrohe Pastellzeichnung, die die peruanische Laguna 69 darstellt. Die Zeichnung wird von Blautönen dominiert, während die Schatten in Lila gehalten sind. Sie fängt die besondere Atmosphäre und mystische Schönheit der Lagune ein. Für mich symbolisiert dieses Werk die Freude am Reisen und das Entdecken neuer Orte.  
 ![Laguna-69](/images/laguna.jpg)
 
 ### 3. **Blühende Lotusblumen**
-Das dritte Werk zeigt eine friedliche Seeszene, auf der blühende Lotusblumen anmutig treiben. Das Gemälde spielt mit beruhigenden Grüntönen und Blau, die die stille Harmonie der Natur widerspiegeln. Die orange- und weißfarbenen Blüten vervollständigen die Komposition und bieten dem Betrachter einen meditativen Moment, um sich in der ruhigen Landschaft zu verlieren.  
-![Blühende Lotusblumen](/images/lotusz_kesz.jpg)
+<div class="image-text-container">
+    <img class="olimpia-img" src="/images/lotusz_kesz.jpg" alt="Blühende Lotusblumen" />
+    <p class="olimpia-text">Das dritte Werk zeigt eine friedliche Seeszene, auf der blühende Lotusblumen anmutig treiben. Das Gemälde spielt mit beruhigenden Grüntönen und Blau, die die stille Harmonie der Natur widerspiegeln. Die orange- und weißfarbenen Blüten vervollständigen die Komposition und bieten dem Betrachter einen meditativen Moment, um sich in der ruhigen Landschaft zu verlieren.    
+    </p>
+</div>
 
 ## Die Veranstaltung und die Resonanz
 
@@ -35,3 +41,31 @@ Dieses Ereignis war ein bedeutender Schritt für mich in Bezug auf Selbstausdruc
 Ich hoffe, in Zukunft weitere solche Gelegenheiten zu haben, und dass noch mehr Menschen meine Arbeiten sehen können.
 
 Vielen Dank an alle, die die Ausstellung besucht und mich an diesem besonderen Tag unterstützt haben!
+
+<style>
+  .olimpia-img {
+    margin-top: 0.5rem;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px; 
+}
+.image-text-container {
+    display: flex;
+    gap: 20px; /* Térköz a kép és a szöveg között */
+    flex-wrap: wrap;
+}
+
+.olimpia-text {
+    width: 50%; /* Szöveg szélessége */
+}
+@media (max-width: 768px) {
+    .image-text-container {
+        flex-direction: column;
+    
+    }
+
+    .olimpia-img, .olimpia-text {
+        width: 100%;
+    }
+}
+</style>

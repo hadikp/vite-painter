@@ -11,16 +11,23 @@ One of the most special events of the summer for me was my exhibition. This occa
 ## My Exhibited Works
 
 ### 1. **Painting Inspired by the Paris Olympics**
-The first piece was inspired by the 2024 Paris Olympics. The artwork symbolizes the Olympic spirit – unity and perseverance – expressed through vibrant blue hues and dynamic lines. The energy, movement, and essence of sports are reflected in every detail of the composition. The painting features a runner heading towards the Eiffel Tower.  
-![Paris Olympics](/images/olimpia.jpg)
+<div class="image-text-container">
+    <img class="olimpia-img" src="/images/olimpia.jpg" alt="Paris Olympics" />
+    <p class="olimpia-text">The first piece was inspired by the 2024 Paris Olympics. The artwork symbolizes the Olympic spirit – unity and perseverance – expressed through vibrant blue hues and dynamic lines. The energy, movement, and essence of sports are reflected in every detail of the composition. The painting features a runner heading towards the Eiffel Tower.
+    </p>
+</div>
 
 ### 2. **Colorful Pastel Drawing: "Laguna 69"**
 The second piece was a vivid, colorful pastel drawing depicting Peru’s Laguna 69. Dominated by shades of blue with lilac shadows, it captures the lagoon’s unique atmosphere and mystical beauty. For me, this artwork symbolizes the joy of travel and discovering new places.  
 ![Laguna-69](/images/laguna.jpg)
 
 ### 3. **Blooming Lotuses**
-The third piece portrayed a peaceful lake scene with blooming lotuses floating gracefully. The painting plays with soothing greens and blues, evoking the quiet harmony of nature. The flowers’ orange and white hues complete the composition, offering a meditative moment for the viewer to immerse themselves in the tranquil scenery.  
-![Blooming Lotuses](/images/lotusz_kesz.jpg)
+<div class="image-text-container">
+    <img class="olimpia-img" src="/images/lotusz_kesz.jpg" alt="Blooming Lotuses" />
+    <p class="olimpia-text">The third piece portrayed a peaceful lake scene with blooming lotuses floating gracefully. The painting plays with soothing greens and blues, evoking the quiet harmony of nature. The flowers’ orange and white hues complete the composition, offering a meditative moment for the viewer to immerse themselves in the tranquil scenery.
+    </p>
+</div>
+
 
 ## The Event and Its Reception
 
@@ -35,3 +42,31 @@ This event was a significant step for me in terms of self-expression and my arti
 I hope to have more opportunities like this in the future and for even more people to see my work.
 
 Thank you to everyone who attended the exhibition and supported me on this special day!
+
+<style>
+  .olimpia-img {
+    margin-top: 0.5rem;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px; 
+}
+.image-text-container {
+    display: flex;
+    gap: 20px; /* Térköz a kép és a szöveg között */
+    flex-wrap: wrap;
+}
+
+.olimpia-text {
+    width: 50%; /* Szöveg szélessége */
+}
+@media (max-width: 768px) {
+    .image-text-container {
+        flex-direction: column;
+    
+    }
+
+    .olimpia-img, .olimpia-text {
+        width: 100%;
+    }
+}
+</style>
