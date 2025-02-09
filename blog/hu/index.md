@@ -34,6 +34,14 @@ hero:
         author: 'HadikP',
         date: '2025-01-28',
         path: '/blog/hu/exhibition'
+    },
+    {
+        title: 'Korai munkáim',
+        description: 'Korai alkotásaim – Három első művem: egy pasztell teknős, egy elsüllyedt templomtorony és egy akvarell mediterrán kapu.',
+        image: '/blog/images/collage.jpg',
+        author: 'HadikP',
+        date: '2025-02-08',
+        path: '/blog/hu/early_works'
     }
   ]
   

@@ -34,7 +34,15 @@ hero:
         author: 'HadikP',
         date: '2025-01-20',
         path: '/blog/de/exhibition'
-    }
+    },
+    {
+        title: 'Meine frühen Werke',
+        description: "Meine frühen Werke – Drei meiner ersten Kunstwerke: eine Schildkröte in Pastell, ein versunkener Kirchturm und ein mediterranes Tor in Aquarell.",
+        image: '/blog/images/collage.jpg',
+        author: 'HadikP',
+        date: '2025-02-08',
+        path: '/blog/en/early_works'
+    } 
   ]
 
 </script>

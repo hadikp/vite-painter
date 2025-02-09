@@ -34,6 +34,14 @@ hero:
         author: 'HadikP',
         date: '2025-01-28',
         path: '/blog/en/exhibition'
+    }, 
+    {
+        title: 'My Early Works',
+        description: "My Early Works – Three of my first artworks: a pastel turtle, a sunken church tower, and a Mediterranean gate in watercolor.",
+        image: '/blog/images/collage.jpg',
+        author: 'HadikP',
+        date: '2025-02-08',
+        path: '/blog/en/early_works'
     } 
   ]
     

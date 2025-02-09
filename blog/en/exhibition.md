@@ -64,7 +64,6 @@ Thank you to everyone who attended the exhibition and supported me on this speci
         flex-direction: column;
     
     }
-
     .olimpia-img, .olimpia-text {
         width: 100%;
     }
