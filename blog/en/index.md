@@ -42,7 +42,15 @@ hero:
         author: 'HadikP',
         date: '2025-02-08',
         path: '/blog/en/early_works'
-    } 
+    },
+    {
+        title: 'Morning Fog - My Own Version',
+        description: 'A reinterpretation of my painting Morning Fog and my creative experiences.',
+        image: '/blog/images/my_mist.jpg',
+        author: 'HadikP',
+        date: '2025-02-12',
+        path: '/blog/en/my_mist'
+    },
   ]
     
 

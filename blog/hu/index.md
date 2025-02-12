@@ -42,7 +42,15 @@ hero:
         author: 'HadikP',
         date: '2025-02-08',
         path: '/blog/hu/early_works'
-    }
+    },
+    {
+        title: 'Reggeli köd - saját verzió',
+        description: 'A Reggeli köd című festményem újragondolása és az alkotói tapasztalataim.',
+        image: '/blog/images/my_mist.jpg',
+        author: 'HadikP',
+        date: '2025-02-12',
+        path: '/blog/hu/my_mist'
+    },
   ]
   
 </script>

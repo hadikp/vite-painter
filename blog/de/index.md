@@ -42,7 +42,15 @@ hero:
         author: 'HadikP',
         date: '2025-02-08',
         path: '/blog/en/early_works'
-    } 
+    },
+    {
+        title: 'Morgendlicher Nebel - Meine eigene Version',
+        description: 'Eine Neuinterpretation meines Gemäldes Morgendlicher Nebel und meine kreativen Erfahrungen.',
+        image: '/blog/images/my_mist.jpg',
+        author: 'HadikP',
+        date: '2025-02-12',
+        path: '/blog/en/my_mist'
+    },
   ]
 
 </script>
