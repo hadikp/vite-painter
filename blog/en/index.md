@@ -51,6 +51,14 @@ hero:
         date: '2025-02-12',
         path: '/blog/en/my_mist'
     },
+    {
+        title: 'Mediterranean Gate',
+        description: 'A detailed watercolor painting capturing the enchanting atmosphere of a Mediterranean gate.',
+        image: '/blog/images/kapu.jpg',
+        author: 'HadikP',
+        date: '2025-03-05',
+        path: '/blog/en/gate'
+    },
   ]
     
 

@@ -51,6 +51,14 @@ hero:
         date: '2025-02-12',
         path: '/blog/hu/my_mist'
     },
+    {
+        title: 'Mediterrán kapu',
+        description: 'Egy részletgazdag akvarell festmény születése, amely egy mediterrán kapu varázslatos hangulatát örökíti meg.',
+        image: '/blog/images/kapu.jpg',
+        author: 'HadikP',
+        date: '2025-03-05',
+        path: '/blog/hu/gate'
+    },
   ]
   
 </script>

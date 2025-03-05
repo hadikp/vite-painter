@@ -51,6 +51,14 @@ hero:
         date: '2025-02-12',
         path: '/blog/en/my_mist'
     },
+    {
+        title: 'Mediterranes Tor',
+        description: 'Ein detailliertes Aquarellgemälde, das die bezaubernde Atmosphäre eines mediterranen Tores einfängt.',
+        image: '/blog/images/kapu.jpg',
+        author: 'HadikP',
+        date: '2025-03-05',
+        path: '/blog/de/gate'
+    },
   ]
 
 </script>
