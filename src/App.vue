@@ -1,23 +1,21 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import { t, availableLanguages, setLanguage, currentLanguageCode } from './locale/language'
-/* import { ref } from "vue";
+import { ref } from "vue";
 
-const menuOpen = ref(false);
+const isMenuOpen = ref(false);
 const toggleMenu = () => {
-  menuOpen.value = !menuOpen.value;
-}; */
+  isMenuOpen.value = !isMenuOpen.value;
+};
 
 </script>
 
 <template>
   <div class="main-container">
-    <!-- <div class="menu-icon" @click="menuOpen = !menuOpen">
-      ☰
-    </div> -->
+    <button class="menu-button" @click="toggleMenu">☰</button>
     <header>
-      <!-- <div class="navigation" :class="{ 'open': menuOpen }"></div> -->
-      <div class="navigation">
+      <div :class="['navigation', { open: isMenuOpen }]">
+      <!-- <div class="navigation"> -->
         <nav class="nav-ul">
           <RouterLink class="nav-ul-li" to="/">Home</RouterLink>
           <RouterLink class="nav-ul-li" to="/about">About</RouterLink>
@@ -49,7 +47,7 @@ const toggleMenu = () => {
 <style scoped>
 .main-container{
   text-align: center;
-  /* position: relative; */
+  position: relative;
 }
 .navigation {
     font-family: Arial;
@@ -67,12 +65,12 @@ const toggleMenu = () => {
   }
 
   /* Menü ikon mobilhoz */
-/* .menu-icon {
+.menu-button {
   display: none;
+  font-size: 1.5rem;
+  border: none;
   cursor: pointer;
-  font-size: 24px;
-  padding: 10px;
-} */
+}
 .footer-div{
     color: orange;
     font-size: 1.5rem;
@@ -84,8 +82,8 @@ const toggleMenu = () => {
 
 
 @media screen and (max-width: 768px) {
-  .menu-icon {
-    display: block; /* Mobilon megjelenik a menü ikon */
+  .menu-button {
+    display: flex; /* Mobilon megjelenik a menü ikon */
   }
 
   .navigation {
@@ -102,6 +100,7 @@ const toggleMenu = () => {
 
   .nav-ul {
     flex-direction: column;
+    text-align: center;
     width: 100%;
     gap: 10px;
   }

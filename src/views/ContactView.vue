@@ -1,5 +1,5 @@
 <script>
-  /* export default {
+  export default {
   data() {
     return {
       form: {
@@ -17,7 +17,7 @@
       this.form.message = '';
     }
   }
-}; */
+};
 </script>
 
 <template>
