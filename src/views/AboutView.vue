@@ -7,20 +7,11 @@ import { t, jsonArrToString, availableLanguages, setLanguage, currentLanguageCod
 </script>
 <template>
   <div class="main-content">
-    <!-- <select @change="setLanguage($event.target.value)" v-model="currentLanguageCode">
-        <option v-for="lang in availableLanguages" :key="lang.code" :value="lang.code">
-          {{ lang.name }}
-        </option>
-      </select> -->
   <div class="artist">
     <h1 class="artist-title">The Artist</h1>
     <img class="artist-photo" :src="artist">
   </div>
-  <div v-html="jsonArrToString"  class="artis-text">
-    
-     
-      
-    </div>
+  <div v-html="jsonArrToString"  class="artis-text"></div>
   </div>
 </template>
 
@@ -41,6 +32,13 @@ import { t, jsonArrToString, availableLanguages, setLanguage, currentLanguageCod
   margin: 1rem;
   text-justify: auto;
   text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column; /* Elemk egymás alá kerülnek */
+    align-items: center; /* Középre igazítás */
+  }
 }
   
 </style>

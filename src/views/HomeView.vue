@@ -37,11 +37,16 @@
   flex: 1;               
 }
 
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Elemk egymás alá kerülnek */
+    align-items: center; /* Középre igazítás */
+  }
+
+  .video-container {
+    margin-right: 0; 
+    margin-bottom: 20px;
+    height: auto;
   }
 }
 </style>

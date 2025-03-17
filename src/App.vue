@@ -15,12 +15,11 @@ const toggleMenu = () => {
     <button class="menu-button" @click="toggleMenu">☰</button>
     <header>
       <div :class="['navigation', { open: isMenuOpen }]">
-      <!-- <div class="navigation"> -->
         <nav class="nav-ul">
           <RouterLink class="nav-ul-li" to="/">Home</RouterLink>
           <RouterLink class="nav-ul-li" to="/about">About</RouterLink>
           <RouterLink class="nav-ul-li" to="/artWork">Art Work</RouterLink>
-          <RouterLink class="nav-ul-li" to="/firebase">Firebase data</RouterLink>
+          <!-- <RouterLink class="nav-ul-li" to="/firebase">Firebase data</RouterLink> -->
           <RouterLink class="nav-ul-li" to="/exhibition">Exhibitions</RouterLink>
           <a class="nav-ul-li" href="/blog/index.html">Blog</a>
           <RouterLink class="nav-ul-li" to="/contact">Contact</RouterLink>
@@ -64,7 +63,6 @@ const toggleMenu = () => {
     padding: 15px;
   }
 
-  /* Menü ikon mobilhoz */
 .menu-button {
   display: none;
   font-size: 1.5rem;
@@ -79,7 +77,6 @@ const toggleMenu = () => {
     height: 2.5rem; 
     margin-top: 2rem;
 }
-
 
 @media screen and (max-width: 768px) {
   .menu-button {
