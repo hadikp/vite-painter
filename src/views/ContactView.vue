@@ -23,15 +23,15 @@
 <template>
   <div class="contact-container">
     <h1 class="title">Kapcsolat</h1>
-    <form @submit.prevent="submitForm" class="contact-form">
+    <form action="https://formspree.io/f/xnnjanlr" method="POST" class="contact-form">
       <label for="name">Név:</label>
-      <input type="text" id="name" v-model="form.name" required>
+      <input type="text" id="name" required>
 
       <label for="email">E-mail:</label>
-      <input type="email" id="email" v-model="form.email" required>
+      <input type="email" id="email" name="email" required>
 
       <label for="message">Üzenet:</label>
-      <textarea id="message" v-model="form.message" required></textarea>
+      <textarea id="message" name="message" required></textarea>
 
       <button type="submit">Küldés</button>
     </form>
