@@ -59,6 +59,14 @@ hero:
         date: '2025-03-05',
         path: '/blog/hu/gate'
     },
+    {
+        title: 'Görög-Magyar Mail art kiállítás',
+        description: 'Négy alkotásom a Mobil Bódé Galéria görög-magyar mail art kiállításán – magyar művek Athénban, görögök Budapesten.',
+        image: '/blog/images/gorog.jpg',
+        author: 'HadikP',
+        date: '2025-04-25',
+        path: '/blog/hu/exchibition_bode'
+    },
   ]
   
 </script>

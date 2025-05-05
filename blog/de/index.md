@@ -59,6 +59,14 @@ hero:
         date: '2025-03-05',
         path: '/blog/de/gate'
     },
+    {
+        title: 'Mail Art Ausstellung – Zwischen Griechenland und Ungarn',
+        description: 'Vier Werke von mir sind Teil der griechisch-ungarischen Mail Art Ausstellung der Mobil Bódé Galerie – ungarische Kunst in Athen, griechische in Budapest.',
+        image: '/blog/images/gorog.jpg',
+        author: 'HadikP',
+        date: '2025-04-25',
+        path: '/blog/hu/exchibition_bode'
+    },
   ]
 
 </script>
