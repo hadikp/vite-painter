@@ -65,7 +65,15 @@ hero:
         image: '/blog/images/gorog.jpg',
         author: 'HadikP',
         date: '2025-04-25',
-        path: '/blog/hu/exchibition_bode'
+        path: '/blog/de/exchibition_bode'
+    },
+    {
+        title: 'Männlicher Akt in Kohle',
+        description: 'Eine Aktzeichnung in A3 mit Kohle, die einen muskulösen, halb abgewandten männlichen Körper zeigt, der sich auf einen Tisch stützt.',
+        image: '/blog/images/nude.jpg',
+        author: 'HadikP',
+        date: '2025-05-28',
+        path: '/blog/de/nude'
     },
   ]
 

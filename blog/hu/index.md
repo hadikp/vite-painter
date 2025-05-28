@@ -67,6 +67,14 @@ hero:
         date: '2025-04-25',
         path: '/blog/hu/exchibition_bode'
     },
+    {
+        title: 'Férfiakt szénnel',
+        description: 'A3-as méretű szénrajz, amely egy meztelen férfit ábrázol, amint izmos testével egy asztalnak támaszkodik.',
+        image: '/blog/images/nude.jpg',
+        author: 'HadikP',
+        date: '2025-05-28',
+        path: '/blog/hu/nude'
+    },
   ]
   
 </script>
