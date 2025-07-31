@@ -16,7 +16,7 @@ This A3-sized work was made from a live model. The pose felt natural, yet full o
 
 ## What this drawing means to me
 
-This piece was not only a technical challenge, but also a dialogue with the human body and its inner dynamics. Charcoal is a raw yet sensitive medium—just like the body itself. To me, this drawing speaks of **concentration, presence, and focused attention**.
+This piece was not only a technical challenge, but also required deep focus and attention to truly understand the forms of the human body. Charcoal is a raw yet sensitive medium—much like the human figure itself, which conveys both strength and vulnerability. To me, this drawing speaks of **concentration, presence, and focused attention**.
 
 ---
 

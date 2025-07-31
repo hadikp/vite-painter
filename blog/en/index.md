@@ -75,6 +75,14 @@ hero:
         date: '2025-05-28',
         path: '/blog/en/nude'
     },
+    {
+        title: 'Male Nude in Charcoal',
+        description: 'An A3-sized charcoal drawing of a nude male figure leaning on a table, captured in a dynamic, half-turned pose.',
+        image: '/blog/images/kofal.jpg',
+        author: 'HadikP',
+        date: '2025-07-30',
+        path: '/blog/en/jancso_art'
+    },
   ]
     
 

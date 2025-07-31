@@ -75,6 +75,14 @@ hero:
         date: '2025-05-28',
         path: '/blog/de/nude'
     },
+    {
+        title: 'Männlicher Akt in Kohle',
+        description: 'Eine Aktzeichnung in A3 mit Kohle, die einen muskulösen, halb abgewandten männlichen Körper zeigt, der sich auf einen Tisch stützt.',
+        image: '/blog/images/kofal.jpg',
+        author: 'HadikP',
+        date: '2025-07-30',
+        path: '/blog/de/jancso_art'
+    },
   ]
 
 </script>

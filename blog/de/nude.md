@@ -16,7 +16,7 @@ Die Zeichnung entstand im Format A3 nach einem lebenden Modell. Die Haltung war 
 
 ## Was mir diese Zeichnung bedeutet
 
-Dieses Werk war nicht nur eine technische Herausforderung, sondern auch ein Dialog mit dem Körper und seiner inneren Dynamik. Kohle ist ein rohes, zugleich sensibles Medium – ganz wie der menschliche Körper selbst. Für mich steht diese Zeichnung für **Konzentration, Präsenz und fokussierte Aufmerksamkeit**.
+Diese Arbeit war nicht nur eine technische Herausforderung, sondern erforderte auch volle Konzentration und Aufmerksamkeit, um die Formen des menschlichen Körpers wirklich zu erfassen. Kohle ist ein rohes und zugleich sensibles Medium – genau wie der menschliche Körper, der sowohl Stärke als auch Verletzlichkeit ausdrückt. Für mich geht es in dieser Zeichnung um Präsenz, Achtsamkeit und das feine Gespür für Details. Für mich steht diese Zeichnung für **Konzentration, Präsenz und fokussierte Aufmerksamkeit**.
 
 ---
 

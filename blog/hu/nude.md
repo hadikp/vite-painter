@@ -16,7 +16,7 @@ Ez az A3-as méretű rajz egy élő modell alapján készült. A póz természet
 
 ## Mit jelent számomra ez a rajz?
 
-Ez a munka nemcsak technikai kihívást jelentett, hanem egyfajta párbeszédet is a testtel és annak belső dinamikájával. A szén durva, mégis érzékeny anyag – éppúgy, mint maga az emberi test. E rajz számomra a **koncentrációról, jelenlétről és figyelemről** szól.
+Ez a munka nemcsak technikai kihívást jelentett, hanem mélyebb figyelmet és összpontosítást is igényelt a test formáinak megértéséhez. A szén nyers, mégis érzékeny anyag – hasonlóan az emberi testhez, amely egyszerre erőt sugároz és sérülékeny. E rajz számomra a **koncentrációról, jelenlétről és figyelemről** szól.
 
 ---
 
