@@ -77,7 +77,7 @@ hero:
     },
     {
         title: 'Akvarell sziklafal',
-        description: 'Egy különleges várfal akvarellen: két ablakon át egy tengeri szigetre nyíló kilátás. A festmény a Jancsó Art Gallery nyilvános festésén készült.',
+        description: 'Egy különleges várfal akvarellen: két ablakon át egy tengerpartra nyíló kilátás. A festmény a Jancsó Art Gallery nyilvános festésén készült.',
         image: '/blog/images/kofal.jpg',
         author: 'HadikP',
         date: '2025-07-30',

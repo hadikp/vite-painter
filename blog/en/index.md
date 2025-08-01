@@ -76,8 +76,8 @@ hero:
         path: '/blog/en/nude'
     },
     {
-        title: 'Male Nude in Charcoal',
-        description: 'An A3-sized charcoal drawing of a nude male figure leaning on a table, captured in a dynamic, half-turned pose.',
+        title: 'Watercolor Cliff Wall',
+        description: 'A special castle wall in watercolor: through two windows, a view opens to the sea. This painting was created during a public painting session organized by Jancsó Art Gallery.',
         image: '/blog/images/kofal.jpg',
         author: 'HadikP',
         date: '2025-07-30',

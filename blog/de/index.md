@@ -76,8 +76,8 @@ hero:
         path: '/blog/de/nude'
     },
     {
-        title: 'Männlicher Akt in Kohle',
-        description: 'Eine Aktzeichnung in A3 mit Kohle, die einen muskulösen, halb abgewandten männlichen Körper zeigt, der sich auf einen Tisch stützt.',
+        title: 'Aquarell-Felswand',
+        description: 'Eine besondere Burgmauer in Aquarell: durch zwei Fenster eröffnet sich der Blick auf eine Küstenlandschaft. Das Bild entstand während eines öffentlichen Mal-Events der Jancsó Art Gallery.',
         image: '/blog/images/kofal.jpg',
         author: 'HadikP',
         date: '2025-07-30',

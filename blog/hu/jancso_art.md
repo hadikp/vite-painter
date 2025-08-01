@@ -1,7 +1,7 @@
 ---
 title: "Akvarell sziklafal – egy nyilvános festés élménye"
 date: 2025-07-31
-description: "Egy különleges várfal akvarellen: két ablakon át egy tengeri szigetre nyíló kilátás. A festmény a Jancsó Art Gallery nyilvános festésén készült."
+description: "Egy különleges várfal akvarellen: két ablakon át egy tengerpartra nyíló kilátás. A festmény a Jancsó Art Gallery nyilvános festésén készült."
 ---
 
 # Akvarell sziklafal – egy nyilvános festés élménye
