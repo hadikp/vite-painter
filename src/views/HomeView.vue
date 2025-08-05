@@ -10,8 +10,8 @@
       </video>
     </div>
     <div class="text-container">
-      <h2>Szöveg címe</h2>
-      <p>Ez a szöveg a videó mellett jelenik meg. Írhatsz bármit ide.</p>
+      <h2>Festmények amelyek mesélnek</h2>
+      <p>Minden kép egy történet — nézd meg közelebbről.</p>
     </div> 
   </div>
 
