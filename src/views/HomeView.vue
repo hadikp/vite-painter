@@ -2,51 +2,75 @@
 </script>
 
 <template>
-  <div class="container">
-     <div class="video-container">
-      <video width="100%" height="auto" autoplay muted controls>
-        <source src="@/assets/videos/gater.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </div>
-    <div class="text-container">
-      <h2>Festmények amelyek mesélnek</h2>
-      <p>Minden kép egy történet — nézd meg közelebbről.</p>
-    </div> 
-  </div>
+  <div class="container py-4">
+    <div class="row align-items-center">
+      <!-- Videó -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <div class="video-wrapper">
+          <video autoplay muted controls>
+            <source src="@/assets/videos/gater.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
 
+      <!-- Szöveg -->
+      <div class="col-md-6 text-center text-md-start">
+        <h2 class="display-5">Festmények amelyek mesélnek</h2>
+        <p class="lead">Minden kép egy történet — nézd meg közelebbről.</p>
+      </div>
+    </div>
+
+    <!-- Gombok -->
+    <div class="row mt-5">
+      <div class="col text-center">
+        <p class="mb-4">Tovább a festményekhez vagy a bloghoz:</p>
+        <div class="d-flex justify-content-center flex-wrap gap-3">
+          <router-link to="/artWork" class="btn btn-outline-dark btn-lg">🎨 Festmények</router-link>
+          <a class="btn btn-outline-dark btn-lg" href="/blog/index.html">✍️ Blog</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
-<style>
+<style scoped>
 
-.container {
-  display: flex;         /* Flexbox elrendezés */
-  justify-content: space-between;  /* A tartalom közötti távolság */
-  align-items: center;   /* Vertikális középre igazítás */
+a {
+  transition: color 0.3s ease;
 }
 
-.video-container {
-  flex: 1;               
-  margin-right: 20px; /* Távolság a videó és a szöveg között */
+a:hover {
+  color: #a0522d; /* pl. barna árnyalat*/
+}
+.video-wrapper {
   width: 100%;
-  height: 100vh;
-  overflow: hidden;     
+  height: 50vh; /* Asztali nézet – arányos magasság */
 }
 
-.text-container {
-  flex: 1;               
+.video-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* NE vágja le a tetejét */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: black; /* ha letterbox lesz */
 }
 
+/* Mobil nézet – arányos videó */
 @media (max-width: 768px) {
-  .container {
-    flex-direction: column; /* Elemk egymás alá kerülnek */
-    align-items: center; /* Középre igazítás */
+  .video-wrapper {
+    height: auto;
+    aspect-ratio: 16 / 9;
   }
 
-  .video-container {
-    margin-right: 0; 
-    margin-bottom: 20px;
-    height: auto;
-  }
+  .video-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* NE vágja le a tetejét */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: black; /* ha letterbox lesz */
+}
 }
 </style>
