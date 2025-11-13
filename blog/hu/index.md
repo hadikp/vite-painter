@@ -83,6 +83,22 @@ hero:
         date: '2025-07-30',
         path: '/blog/hu/jancso_art'
     },
+    {
+        title: 'Bárnai templom',
+        description: 'Egy különleges pillanat akvarellben megörökítve: a bárnai templom színei és hangulata.',
+        image: '/blog/images/church_barna.jpg',
+        author: 'HadikP',
+        date: '2025-08-12',
+        path: '/blog/hu/church'
+    },
+    {
+        title: '50 éves a kondor kör',
+        description: 'A Kondor Kör 50 éves jubileumi kiállítása',
+        image: '/blog/images/kondor.jpg',
+        author: 'HadikP',
+        date: '2025-09-17',
+        path: '/blog/hu/kondor'
+    },
   ]
   
 </script>

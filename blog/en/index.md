@@ -83,6 +83,22 @@ hero:
         date: '2025-07-30',
         path: '/blog/en/jancso_art'
     },
+    {
+        title: 'The Church of Bárna',
+        description: 'A special moment captured in watercolor: the colors and atmosphere of the church of Bárna.',
+        image: '/blog/images/church_barna.jpg',
+        author: 'HadikP',
+        date: '2025-08-12',
+        path: '/blog/en/church'
+    },
+    {
+        title: '50 Years of the Kondor Circle',
+        description: 'At the 50th anniversary exhibition of the Kondor Circle',
+        image: '/blog/images/kondor.jpg',
+        author: 'HadikP',
+        date: '2025-09-17',
+        path: '/blog/en/kondor'
+    },
   ]
     
 

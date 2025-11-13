@@ -83,6 +83,22 @@ hero:
         date: '2025-07-30',
         path: '/blog/de/jancso_art'
     },
+    {
+        title: 'Die Kirche von Bárna',
+        description: 'Ein besonderer Moment in Aquarell festgehalten: die Farben und die Stimmung der Kirche von Bárna.',
+        image: '/blog/images/church_barna.jpg',
+        author: 'HadikP',
+        date: '2025-08-12',
+        path: '/blog/de/church'
+    },
+    {
+        title: '50 Jahre Kondor Kreis',
+        description: 'Bei der Jubiläumsausstellung zum 50-jährigen Bestehen des Kondor Kreises',
+        image: '/blog/images/kondor.jpg',
+        author: 'HadikP',
+        date: '2025-09-17',
+        path: '/blog/de/kondor'
+    },
   ]
 
 </script>
